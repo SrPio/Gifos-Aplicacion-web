@@ -1,0 +1,80 @@
+.barraTop {
+  height: 6px;
+  width: 100%;
+  background: #6809e1;
+}
+
+.boxLogoBtn {
+  display: flex;
+  justify-content: space-around;
+  margin: 26px 0 76px 0;
+}
+
+.btnStyle {
+  width: 148px;
+  height: 43px;
+  border: 1px solid #6809e1;
+  box-sizing: border-box;
+  border-radius: 61px;
+  background: #fff;
+  color: #6809e1;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+.btnStyle:hover {
+  background-color: rgb(80, 227, 194);
+  border: none;
+  cursor: pointer;
+}
+
+.titulo {
+  color: #572ee5;
+  padding-bottom: 20px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+span {
+  font-weight: 700;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transition: background-color 0.5s ease;
+}
+
+.contenedor {
+  width: 900px;
+  height: 410px;
+}
+
+.imgPrincipal {
+  height: 190px;
+  width: auto;
+}
+
+.logo {
+  height: 59.11px;
+  width: auto;
+}
+
+/* Dark mode */
+.dark.btnStyle {
+  border: 1px solid #fff;
+  background-color: #373737;
+  color: #fff;
+  transition: all 0.25s ease-in-out;
+}
+
+header.dark {
+  background-color: #373737;
+  transition: background-color 0.5s ease;
+}
+
+.dark.titulo {
+  color: #fff;
+}
